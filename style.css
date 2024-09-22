@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.amazon {
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+.logo {
+  background-image: url("am1.jpeg");
+  background-size: cover;
+  /* color: #cccccc; */
+  height: 50px;
+  width: 100%;
+}
+.border {
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+.add-second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width: 450px;
+  height: 40px;
+  border-radius: 4px;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: #0f1111;
+}
+.nav-search:hover {
+  border: 2px solid orange;
+}
+span {
+  font-size: 0.7rem;
+}
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.home {
+  height: 100%;
+  width: 100%;
+  background-color: #febd68;
+}
+.home1 {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  background-color: rgb(11, 11, 46);
+}
+.home1 a {
+  text-decoration: none;
+  color: white;
+}
+.home1 i {
+  color: #f3f3f3;
+}
+.home1 a i {
+  color: white;
+}
+
+.homepage {
+  height: 500px;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.homepage1 {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  background-color: blanchedalmond;
+}
+.photo img {
+  height: 100%;
+  width: 99.99%;
+}
